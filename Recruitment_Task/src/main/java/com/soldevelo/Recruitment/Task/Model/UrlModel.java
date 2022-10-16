@@ -1,12 +1,10 @@
 package com.soldevelo.Recruitment.Task.Model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
-public class Git {
-
+public class UrlModel {
     private String owner;
-    private String repo;
+    private String repository;
 }
